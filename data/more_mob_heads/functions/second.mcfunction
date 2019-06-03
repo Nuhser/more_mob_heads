@@ -57,7 +57,7 @@
 execute as @e[type=sheep, tag=!mmh_done, nbt={CustomName:"{\"text\":\"jeb_\"}"}] at @s run data merge entity @s {Tags: ["mmh_done"], DeathLootTable: "minecraft:moremobheads/jeb_sheep"}
 
 #llamas
-execute as @e[type=llama, tag=!mmh_done] store result score @s mmh_types run data get entity @s Variant
+#execute as @e[type=llama, tag=!mmh_done] store result score @s mmh_types run data get entity @s Variant
 
 #panda
 
@@ -66,8 +66,8 @@ execute as @e[type=llama, tag=!mmh_done] store result score @s mmh_types run dat
 execute as @e[type=parrot, tag=!mmh_done] store result score @s mmh_types run data get entity @s Variant
 
 #remove tags from
-tag @e[type=rabbit,tag=nuhser_heads1,nbt={CustomName:"{\"text\":\"Toast\"}"}] remove nuhser_heads1
-tag @e[type=rabbit,tag=nuhser_heads2,nbt={CustomName:"{\"text\":\"The Killer Bunny\"}"}] remove nuhser_heads2
+#tag @e[type=rabbit,tag=nuhser_heads1,nbt={CustomName:"{\"text\":\"Toast\"}"}] remove nuhser_heads1
+#tag @e[type=rabbit,tag=nuhser_heads2,nbt={CustomName:"{\"text\":\"The Killer Bunny\"}"}] remove nuhser_heads2
 
 #rabbits
 execute as @e[type=rabbit,tag=!nuhser_heads,nbt={RabbitType:0}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/rabbits/brown"}
@@ -115,4 +115,4 @@ execute as @e[type=drowned,tag=!nuhser_halloween,nbt={ArmorItems:[{id:"minecraft
 execute as @e[type=drowned,tag=!nuhser_halloween,nbt={ArmorItems:[{id:"minecraft:jack_o_lantern"}]}] at @s run data merge entity @s {Tags:["nuhser_halloween"], DeathLootTable:"minecraft:moremobheads/halloween/lantern/drowned"}
 
 #give all variant-mobs tag
-tag @e[type=#more_mob_heads:variant_mobs,tag=!mmh_done] add mmh_done
+#tag @e[type=#more_mob_heads:variant_mobs,tag=!mmh_done] add mmh_done
