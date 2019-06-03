@@ -5,53 +5,53 @@
 #
 
 #cats
-execute as @e[type=cat, tag=!mmh_done] store result score @s mmh_types run data get entity @s CatTypes
-
-#charged creeper
-#execute as @e[type=creeper, tag=!mmh_done] store result score @s mmh_types run data get entity @s powered
-
-#horses
-execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:0}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/white"}
-execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:256}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/white"}
-execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:512}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/white"}
-execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:768}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/white"}
-execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:1024}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/white"}
-
-execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:1}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/creamy"}
-execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:257}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/creamy"}
-execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:513}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/creamy"}
-execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:769}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/creamy"}
-execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:1025}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/creamy"}
-
-execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:2}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/chestnut"}
-execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:258}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/chestnut"}
-execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:514}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/chestnut"}
-execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:770}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/chestnut"}
-execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:1026}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/chestnut"}
-
-execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:3}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/brown"}
-execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:259}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/brown"}
-execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:515}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/brown"}
-execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:771}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/brown"}
-execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:1027}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/brown"}
-
-execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:4}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/black"}
-execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:260}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/black"}
-execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:516}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/black"}
-execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:772}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/black"}
-execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:1028}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/black"}
-
-execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:5}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/gray"}
-execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:261}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/gray"}
-execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:517}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/gray"}
-execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:773}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/gray"}
-execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:1029}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/gray"}
-
-execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:6}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/dark_brown"}
-execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:262}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/dark_brown"}
-execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:518}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/dark_brown"}
-execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:774}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/dark_brown"}
-execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:1030}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/dark_brown"}
+# execute as @e[type=cat, tag=!mmh_done] store result score @s mmh_types run data get entity @s CatTypes
+#
+# #charged creeper
+# #execute as @e[type=creeper, tag=!mmh_done] store result score @s mmh_types run data get entity @s powered
+#
+# #horses
+# execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:0}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/white"}
+# execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:256}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/white"}
+# execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:512}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/white"}
+# execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:768}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/white"}
+# execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:1024}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/white"}
+#
+# execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:1}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/creamy"}
+# execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:257}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/creamy"}
+# execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:513}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/creamy"}
+# execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:769}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/creamy"}
+# execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:1025}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/creamy"}
+#
+# execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:2}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/chestnut"}
+# execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:258}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/chestnut"}
+# execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:514}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/chestnut"}
+# execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:770}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/chestnut"}
+# execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:1026}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/chestnut"}
+#
+# execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:3}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/brown"}
+# execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:259}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/brown"}
+# execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:515}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/brown"}
+# execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:771}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/brown"}
+# execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:1027}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/brown"}
+#
+# execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:4}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/black"}
+# execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:260}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/black"}
+# execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:516}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/black"}
+# execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:772}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/black"}
+# execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:1028}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/black"}
+#
+# execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:5}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/gray"}
+# execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:261}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/gray"}
+# execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:517}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/gray"}
+# execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:773}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/gray"}
+# execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:1029}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/gray"}
+#
+# execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:6}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/dark_brown"}
+# execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:262}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/dark_brown"}
+# execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:518}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/dark_brown"}
+# execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:774}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/dark_brown"}
+# execute as @e[type=horse,tag=!nuhser_heads,nbt={Variant:1030}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/horses/dark_brown"}
 
 #jeb_ sheep
 execute as @e[type=sheep, tag=!mmh_done, nbt={CustomName:"{\"text\":\"jeb_\"}"}] at @s run data merge entity @s {Tags: ["mmh_done"], DeathLootTable: "minecraft:moremobheads/jeb_sheep"}
