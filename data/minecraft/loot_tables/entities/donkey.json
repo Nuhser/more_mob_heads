@@ -1,28 +1,29 @@
 {
-  "type": "entity",
+  "type": "minecraft:entity",
   "pools": [
     {
       "rolls": 1,
       "entries": [
         {
-          "type": "item",
-          "name": "minecraft:leather",
+          "type": "minecraft:item",
           "functions": [
             {
-              "function": "set_count",
+              "function": "minecraft:set_count",
               "count": {
-                "min": 0,
-                "max": 2
+                "min": 0.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
               }
             },
             {
-              "function": "looting_enchant",
+              "function": "minecraft:looting_enchant",
               "count": {
-                "min": 0,
-                "max": 1
+                "min": 0.0,
+                "max": 1.0
               }
             }
-          ]
+          ],
+          "name": "minecraft:leather"
         }
       ]
     },

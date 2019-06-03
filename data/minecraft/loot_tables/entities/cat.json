@@ -27,7 +27,7 @@
         },
         {
           "condition": "random_chance_with_looting",
-          "chance": 0.01,
+          "chance": 0.02,
           "looting_multiplier": 0.01
         }
       ],
@@ -50,6 +50,206 @@
             {
               "function": "set_nbt",
               "tag": "{display:{Name:\"{\\\"text\\\":\\\"Tabby Cat Head\\\"}\"},SkullOwner:{Id:\"18d071ee-a17c-46eb-866c-304a4823ac05\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGUyOGQzMGRiM2Y4YzNmZTUwY2E0ZjI2ZjMwNzVlMzZmMDAzYWU4MDI4MTM1YThjZDY5MmYyNGM5YTk4YWUxYiJ9fX0=\"}]}}}"
+            }
+          ]
+        },
+        {
+          "conditions": [
+            {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{CatType: 1}"
+              }
+            }
+          ],
+          "type": "item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Tuxedo Cat Head\\\"}\"},SkullOwner:{Id:\"f0db2cac-dde4-47de-9c27-c0015e49d8b5\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGZkMTBjOGU3NWY2NzM5OGM0NzU4N2QyNWZjMTQ2ZjMxMWMwNTNjYzVkMGFlYWI4NzkwYmNlMzZlZTg4ZjVmOCJ9fX0=\"}]}}}"
+            }
+          ]
+        },
+        {
+          "conditions": [
+            {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{CatType: 2}"
+              }
+            }
+          ],
+          "type": "item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Red Cat Head\\\"}\"},SkullOwner:{Id:\"11d2442b-0bc1-4475-a499-f07dcc2aa40d\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjExM2RiZDNjNmEwNzhhMTdiNGVkYjc4Y2UwN2Q4MzZjMzhkYWNlNTAyN2Q0YjBhODNmZDYwZTdjYTdhMGZjYiJ9fX0=\"}]}}}"
+            }
+          ]
+        },
+        {
+          "conditions": [
+            {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{CatType: 3}"
+              }
+            }
+          ],
+          "type": "item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Siamese Cat Head\\\"}\"},SkullOwner:{Id:\"7d487214-5276-49af-bbb1-019b49384d69\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDViM2Y4Y2E0YjNhNTU1Y2NiM2QxOTQ0NDk4MDhiNGM5ZDc4MzMyNzE5NzgwMGQ0ZDY1OTc0Y2M2ODVhZjJlYSJ9fX0=\"}]}}}"
+            }
+          ]
+        },
+        {
+          "conditions": [
+            {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{CatType: 4}"
+              }
+            }
+          ],
+          "type": "item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"British Shorthair Cat Head\\\"}\"},SkullOwner:{Id:\"4332ff48-8a0e-4164-ae55-2d16caf68190\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTM4OWUwZDVkM2U4MWY4NGI1NzBlMjk3ODI0NGIzYTczZTVhMjJiY2RiNjg3NGI0NGVmNWQwZjY2Y2EyNGVlYyJ9fX0=\"}]}}}"
+            }
+          ]
+        },
+        {
+          "conditions": [
+            {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{CatType: 5}"
+              }
+            }
+          ],
+          "type": "item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Calico Cat Head\\\"}\"},SkullOwner:{Id:\"024560fb-84a5-40cf-b6a1-c8f9d9db2fe9\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzQwMDk3MjcxYmI2ODBmZTk4MWU4NTllOGJhOTNmZWEyOGI4MTNiMTA0MmJkMjc3ZWEzMzI5YmVjNDkzZWVmMyJ9fX0=\"}]}}}"
+            }
+          ]
+        },
+        {
+          "conditions": [
+            {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{CatType: 6}"
+              }
+            }
+          ],
+          "type": "item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Persian Cat Head\\\"}\"},SkullOwner:{Id:\"701fa2a8-ef2b-46cd-b9d3-6cd16be17bb4\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmY0MGM3NDYyNjBlZjkxYzk2YjI3MTU5Nzk1ZTg3MTkxYWU3Y2UzZDVmNzY3YmY4Yzc0ZmFhZDk2ODlhZjI1ZCJ9fX0=\"}]}}}"
+            }
+          ]
+        },
+        {
+          "conditions": [
+            {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{CatType: 7}"
+              }
+            }
+          ],
+          "type": "item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Ragdoll Cat Head\\\"}\"},SkullOwner:{Id:\"b65e722b-5a35-4561-a8df-db9c7a52041f\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGM3YTQ1ZDI1ODg5ZTNmZGY3Nzk3Y2IyNThlMjZkNGU5NGY1YmMxM2VlZjAwNzk1ZGFmZWYyZTgzZTBhYjUxMSJ9fX0=\"}]}}}"
+            }
+          ]
+        },
+        {
+          "conditions": [
+            {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{CatType: 8}"
+              }
+            }
+          ],
+          "type": "item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"White Cat Head\\\"}\"},SkullOwner:{Id:\"db9474c0-f11e-47d3-a6dc-2ebcdd5f37e0\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjFkMTVhYzk1NThlOThiODlhY2E4OWQzODE5NTAzZjFjNTI1NmMyMTk3ZGQzYzM0ZGY1YWFjNGQ3MmU3ZmJlZCJ9fX0=\"}]}}}"
+            }
+          ]
+        },
+        {
+          "conditions": [
+            {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{CatType: 9}"
+              }
+            }
+          ],
+          "type": "item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Jellie Cat Head\\\"}\"},SkullOwner:{Id:\"f0aaa05b-0283-4663-9b57-52dbf2ca2750\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTBkYjQxMzc2Y2E1N2RmMTBmY2IxNTM5ZTg2NjU0ZWVjZmQzNmQzZmU3NWU4MTc2ODg1ZTkzMTg1ZGYyODBhNSJ9fX0=\"}]}}}"
+            }
+          ]
+        },
+        {
+          "conditions": [
+            {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{CatType: 10}"
+              }
+            }
+          ],
+          "type": "item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Black Cat Head\\\"}\"},SkullOwner:{Id:\"f89934e4-99a0-4dab-9151-7b63831e5fd1\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjJjMWU4MWZmMDNlODJhM2U3MWUwY2Q1ZmJlYzYwN2UxMTM2MTA4OWFhNDdmMjkwZDQ2YzhhMmMwNzQ2MGQ5MiJ9fX0=\"}]}}}"
             }
           ]
         }
