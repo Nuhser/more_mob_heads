@@ -83,15 +83,15 @@
 
 
 #wither
-execute as @e[type=wither,tag=!nuhser_heads] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/wither"}
-
-#zombie villager
-execute as @e[type=zombie_villager,tag=!nuhser_heads,nbt={Profession:0}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/zombie_villager/farmer"}
-execute as @e[type=zombie_villager,tag=!nuhser_heads,nbt={Profession:1}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/zombie_villager/librarian"}
-execute as @e[type=zombie_villager,tag=!nuhser_heads,nbt={Profession:2}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/zombie_villager/priest"}
-execute as @e[type=zombie_villager,tag=!nuhser_heads,nbt={Profession:3}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/zombie_villager/blacksmith"}
-execute as @e[type=zombie_villager,tag=!nuhser_heads,nbt={Profession:4}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/zombie_villager/butcher"}
-execute as @e[type=zombie_villager,tag=!nuhser_heads,nbt={Profession:5}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/zombie_villager/nitwit"}
+# execute as @e[type=wither,tag=!nuhser_heads] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/wither"}
+#
+# #zombie villager
+# execute as @e[type=zombie_villager,tag=!nuhser_heads,nbt={Profession:0}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/zombie_villager/farmer"}
+# execute as @e[type=zombie_villager,tag=!nuhser_heads,nbt={Profession:1}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/zombie_villager/librarian"}
+# execute as @e[type=zombie_villager,tag=!nuhser_heads,nbt={Profession:2}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/zombie_villager/priest"}
+# execute as @e[type=zombie_villager,tag=!nuhser_heads,nbt={Profession:3}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/zombie_villager/blacksmith"}
+# execute as @e[type=zombie_villager,tag=!nuhser_heads,nbt={Profession:4}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/zombie_villager/butcher"}
+# execute as @e[type=zombie_villager,tag=!nuhser_heads,nbt={Profession:5}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/zombie_villager/nitwit"}
 
 #snow golem
 #execute as @e[type=snow_golem,tag=!nuhser_heads,nbt={Pumpkin:0b}] at @s run data merge entity @s {Tags:["nuhser_heads"], DeathLootTable:"minecraft:moremobheads/snow_golem"}
