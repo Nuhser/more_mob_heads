@@ -94,7 +94,7 @@ execute as @e[type=zombie_villager,tag=!nuhser_heads,nbt={Profession:4}] at @s r
 execute as @e[type=zombie_villager,tag=!nuhser_heads,nbt={Profession:5}] at @s run data merge entity @s {Tags: ["nuhser_heads"], DeathLootTable: "minecraft:moremobheads/zombie_villager/nitwit"}
 
 #snow golem
-execute as @e[type=snow_golem,tag=!nuhser_heads,nbt={Pumpkin:0b}] at @s run data merge entity @s {Tags:["nuhser_heads"], DeathLootTable:"minecraft:moremobheads/snow_golem"}
+#execute as @e[type=snow_golem,tag=!nuhser_heads,nbt={Pumpkin:0b}] at @s run data merge entity @s {Tags:["nuhser_heads"], DeathLootTable:"minecraft:moremobheads/snow_golem"}
 
 #halloween heads
 execute as @e[type=skeleton,tag=!nuhser_halloween,nbt={ArmorItems:[{id:"minecraft:carved_pumpkin"}]}] at @s run data merge entity @s {Tags:["nuhser_halloween"], DeathLootTable:"minecraft:moremobheads/halloween/pumpkin/skeleton"}
