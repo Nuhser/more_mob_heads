@@ -63,7 +63,7 @@ execute as @e[type=sheep, tag=!mmh_done, nbt={CustomName:"{\"text\":\"jeb_\"}"}]
 
 
 #parrots
-execute as @e[type=parrot, tag=!mmh_done] store result score @s mmh_types run data get entity @s Variant
+#execute as @e[type=parrot, tag=!mmh_done] store result score @s mmh_types run data get entity @s Variant
 
 #remove tags from
 #tag @e[type=rabbit,tag=nuhser_heads1,nbt={CustomName:"{\"text\":\"Toast\"}"}] remove nuhser_heads1
