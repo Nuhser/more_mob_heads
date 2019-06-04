@@ -5,9 +5,6 @@
 #
 
 
-tellraw @a ["",{"text":"Creating scoreboards for More Mob Heads...","color":"yellow"}]
-
-#create scoreboard
-scoreboard objectives add mmh_types dummy
+tellraw @a ["",{"text":"Initializing More Mob Heads...","color":"yellow"}]
 
 tellraw @a ["",{"text":"Loading successful!","color":"green"}]

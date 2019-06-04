@@ -7,8 +7,5 @@
 tellraw @a ["",{"text":"Uninstall More Mob Heads...","color":"yellow"}]
 tellraw @a ["",{"text":"More Mob Heads successful uninstalled!","color":"green"}]
 
-#remove scoreboard
-scoreboard objectives remove mmh_types
-
 #disable more_mob_heads
 datapack disable "file/more_mob_heads"
