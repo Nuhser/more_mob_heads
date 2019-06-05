@@ -205,7 +205,6 @@
               "children": [
                 {
                   "type": "item",
-                  "weight": 10,
                   "name": "minecraft:player_head",
                   "functions": [
                     {
@@ -216,7 +215,6 @@
                 },
                 {
                   "type": "item",
-                  "weight": 4,
                   "name": "minecraft:player_head",
                   "functions": [
                     {
@@ -227,7 +225,6 @@
                 },
                 {
                   "type": "item",
-                  "weight": 1,
                   "name": "minecraft:player_head",
                   "functions": [
                     {
@@ -237,29 +234,25 @@
                   ]
                 },
                 {
-                  "type": "group",
-                  "weight": 10,
-                  "children": [
+                  "type": "item",
+                  "name": "minecraft:player_head",
+                  "functions": [
                     {
-                      "type": "item",
-                      "name": "minecraft:player_head",
-                      "functions": [
-                        {
-                          "function": "set_nbt",
-                          "tag": "{display:{Name:\"{\\\"text\\\":\\\"Cyan Parrot Head\\\"}\"},SkullOwner:{Id:\"0bd02c77-cd3f-4bf4-9d02-89cd7f58e06c\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmI5NGYyMzZjNGE2NDJlYjJiY2RjMzU4OWI5YzNjNGEwYjViZDVkZjljZDVkNjhmMzdmOGM4M2Y4ZTNmMSJ9fX0=\"}]}}}"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "item",
-                      "name": "minecraft:player_head",
-                      "functions": [
-                        {
-                          "function": "set_nbt",
-                          "tag": "{display:{Name:\"{\\\"text\\\":\\\"Silver Parrot Head\\\"}\"},SkullOwner:{Id:\"2a8680dd-7875-4c83-810a-5b866a3d4433\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2Q2ZjRhMjFlMGQ2MmFmODI0Zjg3MDhhYzYzNDEwZjFhMDFiYmI0MWQ3ZjRhNzAyZDk0NjljNjExMzIyMiJ9fX0=\"}]}}}"
-                        }
-                      ]
+                      "function": "set_nbt",
+                      "tag": "{display:{Name:\"{\\\"text\\\":\\\"Cyan Parrot Head\\\"}\"},SkullOwner:{Id:\"0bd02c77-cd3f-4bf4-9d02-89cd7f58e06c\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmI5NGYyMzZjNGE2NDJlYjJiY2RjMzU4OWI5YzNjNGEwYjViZDVkZjljZDVkNjhmMzdmOGM4M2Y4ZTNmMSJ9fX0=\"}]}}}"
                     }
+                  ]
+                },
+                {
+                  "type": "item",
+                  "name": "minecraft:player_head",
+                  "functions": [
+                    {
+                      "function": "set_nbt",
+                      "tag": "{display:{Name:\"{\\\"text\\\":\\\"Silver Parrot Head\\\"}\"},SkullOwner:{Id:\"2a8680dd-7875-4c83-810a-5b866a3d4433\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2Q2ZjRhMjFlMGQ2MmFmODI0Zjg3MDhhYzYzNDEwZjFhMDFiYmI0MWQ3ZjRhNzAyZDk0NjljNjExMzIyMiJ9fX0=\"}]}}}"
+                    }
+                  ]
+                }
               ]
             }
           ]
