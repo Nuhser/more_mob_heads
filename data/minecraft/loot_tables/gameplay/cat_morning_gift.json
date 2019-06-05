@@ -1,0 +1,270 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "quality": -2,
+          "name": "minecraft:rabbit_hide"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "quality": 1,
+          "name": "minecraft:rabbit_foot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "quality": -2,
+          "name": "minecraft:chicken"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "quality": -2,
+          "name": "minecraft:feather"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "quality": -2,
+          "name": "minecraft:rotten_flesh"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "quality": -2,
+          "name": "minecraft:string"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "quality": 1,
+          "name": "minecraft:phantom_membrane"
+        },
+        {
+          "type": "group",
+          "weight": 1,
+          "quality": 2,
+          "children": [
+            {
+              "type": "item",
+              "weight": 10,
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{display:{Name:\"{\\\"text\\\":\\\"Chicken Head\\\"}\"},SkullOwner:{Id:\"7d3a8ace-e045-4eba-ab71-71dbf525daf1\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTYzODQ2OWE1OTljZWVmNzIwNzUzNzYwMzI0OGE5YWIxMWZmNTkxZmQzNzhiZWE0NzM1YjM0NmE3ZmFlODkzIn19fQ==\"}]}}}"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "weight": 4,
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{display:{Name:\"{\\\"text\\\":\\\"Bat Head\\\"}\"},SkullOwner:{Id:\"cfdaf903-18cf-4a92-acf2-efa8626cf0b2\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWU5OWRlZWY5MTlkYjY2YWMyYmQyOGQ2MzAyNzU2Y2NkNTdjN2Y4YjEyYjlkY2E4ZjQxYzNlMGEwNGFjMWNjIn19fQ==\"}]}}}"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "weight": 1,
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{display:{Name:\"{\\\"text\\\":\\\"Phantom Head\\\"}\"},SkullOwner:{Id:\"9290add8-c291-4a5a-8f8a-594f165406a3\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2U5NTE1M2VjMjMyODRiMjgzZjAwZDE5ZDI5NzU2ZjI0NDMxM2EwNjFiNzBhYzAzYjk3ZDIzNmVlNTdiZDk4MiJ9fX0=\"}]}}}"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "weight": 10,
+              "children": [
+                {
+                  "type": "item",
+                  "name": "minecraft:player_head",
+                  "functions": [
+                    {
+                      "function": "set_nbt",
+                      "tag": "{display:{Name:\"{\\\"text\\\":\\\"Brown Rabbit Head\\\"}\"},SkullOwner:{Id:\"2186bdc6-55b1-4b44-8a46-3c8a11d40f3d\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2QxMTY5YjI2OTRhNmFiYTgyNjM2MDk5MjM2NWJjZGE1YTEwYzg5YTNhYTJiNDhjNDM4NTMxZGQ4Njg1YzNhNyJ9fX0=\"}]}}}"
+                    }
+                  ]
+                },
+                {
+                  "type": "item",
+                  "name": "minecraft:player_head",
+                  "functions": [
+                    {
+                      "function": "set_nbt",
+                      "tag": "{display:{Name:\"{\\\"text\\\":\\\"White Rabbit Head\\\"}\"},SkullOwner:{Id:\"1288e126-41dd-4608-b304-86d84464d5e4\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTU0MmQ3MTYwOTg3MTQ4YTVkOGUyMGU0NjliZDliM2MyYTM5NDZjN2ZiNTkyM2Y1NWI5YmVhZTk5MTg1ZiJ9fX0=\"}]}}}"
+                    }
+                  ]
+                },
+                {
+                  "type": "item",
+                  "name": "minecraft:player_head",
+                  "functions": [
+                    {
+                      "function": "set_nbt",
+                      "tag": "{display:{Name:\"{\\\"text\\\":\\\"Black Rabbit Head\\\"}\"},SkullOwner:{Id:\"827f5a8f-1cd7-4148-872f-d3c7f424882f\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzJjNTgxMTZhMTQ3ZDFhOWEyNjI2OTIyNGE4YmUxODRmZThlNWYzZjNkZjliNjE3NTEzNjlhZDg3MzgyZWM5In19fQ==\"}]}}}"
+                    }
+                  ]
+                },
+                {
+                  "type": "item",
+                  "name": "minecraft:player_head",
+                  "functions": [
+                    {
+                      "function": "set_nbt",
+                      "tag": "{display:{Name:\"{\\\"text\\\":\\\"Black and White Rabbit Head\\\"}\"},SkullOwner:{Id:\"6bafd710-5fa3-4f4d-99cf-ad47fa436e3f\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2I4Y2ZmNGIxNWI4Y2EzN2UyNTc1MGYzNDU3MThmMjg5Y2IyMmM1YjNhZDIyNjI3YTcxMjIzZmFjY2MifX19\"}]}}}"
+                    }
+                  ]
+                },
+                {
+                  "type": "item",
+                  "name": "minecraft:player_head",
+                  "functions": [
+                    {
+                      "function": "set_nbt",
+                      "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gold Rabbit Head\\\"}\"},SkullOwner:{Id:\"dacb90db-f547-4b25-b9fd-c2aefc0b07fa\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzk3N2EzMjY2YmYzYjllYWYxN2U1YTAyZWE1ZmJiNDY4MDExNTk4NjNkZDI4OGI5M2U2YzEyYzljYiJ9fX0=\"}]}}}"
+                    }
+                  ]
+                },
+                {
+                  "type": "item",
+                  "name": "minecraft:player_head",
+                  "functions": [
+                    {
+                      "function": "set_nbt",
+                      "tag": "{display:{Name:\"{\\\"text\\\":\\\"Salt and Pepper Rabbit Head\\\"}\"},SkullOwner:{Id:\"02703b0c-573f-4042-a91b-659a3981b508\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmZlY2M2YjVlNmVhNWNlZDc0YzQ2ZTc2MjdiZTNmMDgyNjMyN2ZiYTI2Mzg2YzZjYzc4NjMzNzJlOWJjIn19fQ==\"}]}}}"
+                    }
+                  ]
+                }
+              ],
+            },
+            {
+              "type": "group",
+              "weight": 10,
+              "conditions": [
+                {
+                  "condition": "minecraft:alternative",
+                  "terms": [
+                    {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "biome": "minecraft:jungle"
+                      }
+                    },
+                    {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "biome": "minecraft:jungle_hills"
+                      }
+                    },
+                    {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "biome": "minecraft:jungle_edge"
+                      }
+                    },
+                    {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "biome": "minecraft:bamboo_jungle"
+                      }
+                    },
+                    {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "biome": "minecraft:modified_jungle"
+                      }
+                    },
+                    {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "biome": "minecraft:modified_jungle_edge"
+                      }
+                    },
+                    {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "biome": "minecraft:bamboo_jungle_hills"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "children": [
+                {
+                  "type": "item",
+                  "weight": 10,
+                  "name": "minecraft:player_head",
+                  "functions": [
+                    {
+                      "function": "set_nbt",
+                      "tag": "{display:{Name:\"{\\\"text\\\":\\\"Red Parrot Head\\\"}\"},SkullOwner:{Id:\"d890586d-3e18-41fc-a93d-9040dc25409b\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTRiYThkNjZmZWNiMTk5MmU5NGI4Njg3ZDZhYjRhNTMyMGFiNzU5NGFjMTk0YTI2MTVlZDRkZjgxOGVkYmMzIn19fQ==\"}]}}}"
+                    }
+                  ]
+                },
+                {
+                  "type": "item",
+                  "weight": 4,
+                  "name": "minecraft:player_head",
+                  "functions": [
+                    {
+                      "function": "set_nbt",
+                      "tag": "{display:{Name:\"{\\\"text\\\":\\\"Blue Parrot Head\\\"}\"},SkullOwner:{Id:\"3ac775c2-c701-4ccd-bec2-5cc7a5c0bb7a\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWNhNTgwYjA1MWM2M2JlMjlkYTU0NWE5YWE3ZmY3ZTEzNmRmNzdhODFjNjdkYzFlZTllNjE3MGMxNGZiMzEwIn19fQ==\"}]}}}"
+                    }
+                  ]
+                },
+                {
+                  "type": "item",
+                  "weight": 1,
+                  "name": "minecraft:player_head",
+                  "functions": [
+                    {
+                      "function": "set_nbt",
+                      "tag": "{display:{Name:\"{\\\"text\\\":\\\"Green Parrot Head\\\"}\"},SkullOwner:{Id:\"b95a9198-cf0b-4cfa-bf6d-2f172dc6ee65\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWI5YTM2YzU1ODlmM2EyZTU5YzFjYWE5YjNiODhmYWRhNzY3MzJiZGI0YTc5MjYzODhhOGMwODhiYmJjYiJ9fX0=\"}]}}}"
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "weight": 10,
+                  "children": [
+                    {
+                      "type": "item",
+                      "name": "minecraft:player_head",
+                      "functions": [
+                        {
+                          "function": "set_nbt",
+                          "tag": "{display:{Name:\"{\\\"text\\\":\\\"Cyan Parrot Head\\\"}\"},SkullOwner:{Id:\"0bd02c77-cd3f-4bf4-9d02-89cd7f58e06c\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmI5NGYyMzZjNGE2NDJlYjJiY2RjMzU4OWI5YzNjNGEwYjViZDVkZjljZDVkNjhmMzdmOGM4M2Y4ZTNmMSJ9fX0=\"}]}}}"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "item",
+                      "name": "minecraft:player_head",
+                      "functions": [
+                        {
+                          "function": "set_nbt",
+                          "tag": "{display:{Name:\"{\\\"text\\\":\\\"Silver Parrot Head\\\"}\"},SkullOwner:{Id:\"2a8680dd-7875-4c83-810a-5b866a3d4433\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2Q2ZjRhMjFlMGQ2MmFmODI0Zjg3MDhhYzYzNDEwZjFhMDFiYmI0MWQ3ZjRhNzAyZDk0NjljNjExMzIyMiJ9fX0=\"}]}}}"
+                        }
+                      ]
+                    }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
