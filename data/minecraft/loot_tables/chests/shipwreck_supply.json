@@ -1,237 +1,303 @@
 {
+  "type": "minecraft:chest",
   "pools": [
     {
       "rolls": {
-        "min": 3,
-        "max": 10
+        "min": 3.0,
+        "max": 10.0,
+        "type": "minecraft:uniform"
       },
       "entries": [
         {
-          "type": "item",
-          "name": "minecraft:paper",
+          "type": "minecraft:item",
           "weight": 8,
           "functions": [
             {
-              "function": "set_count",
+              "function": "minecraft:set_count",
               "count": {
-                "min": 1,
-                "max": 12
+                "min": 1.0,
+                "max": 12.0,
+                "type": "minecraft:uniform"
               }
             }
-          ]
+          ],
+          "name": "minecraft:paper"
         },
         {
-          "type": "item",
-          "name": "minecraft:potato",
+          "type": "minecraft:item",
           "weight": 7,
           "functions": [
             {
-              "function": "set_count",
+              "function": "minecraft:set_count",
               "count": {
-                "min": 2,
-                "max": 6
+                "min": 2.0,
+                "max": 6.0,
+                "type": "minecraft:uniform"
               }
             }
-          ]
+          ],
+          "name": "minecraft:potato"
         },
         {
-          "type": "item",
-          "name": "minecraft:poisonous_potato",
+          "type": "minecraft:item",
           "weight": 7,
           "functions": [
             {
-              "function": "set_count",
+              "function": "minecraft:set_count",
               "count": {
-                "min": 2,
-                "max": 6
+                "min": 2.0,
+                "max": 6.0,
+                "type": "minecraft:uniform"
               }
             }
-          ]
+          ],
+          "name": "minecraft:poisonous_potato"
         },
         {
-          "type": "item",
-          "name": "minecraft:carrot",
+          "type": "minecraft:item",
           "weight": 7,
           "functions": [
             {
-              "function": "set_count",
+              "function": "minecraft:set_count",
               "count": {
-                "min": 4,
-                "max": 8
+                "min": 4.0,
+                "max": 8.0,
+                "type": "minecraft:uniform"
               }
             }
-          ]
+          ],
+          "name": "minecraft:carrot"
         },
         {
-          "type": "item",
-          "name": "minecraft:wheat",
+          "type": "minecraft:item",
           "weight": 7,
           "functions": [
             {
-              "function": "set_count",
+              "function": "minecraft:set_count",
               "count": {
-                "min": 8,
-                "max": 21
+                "min": 8.0,
+                "max": 21.0,
+                "type": "minecraft:uniform"
               }
             }
-          ]
+          ],
+          "name": "minecraft:wheat"
         },
         {
-          "type": "item",
-          "name": "minecraft:coal",
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_stew_effect",
+              "effects": [
+                {
+                  "type": "minecraft:weakness",
+                  "duration": {
+                    "min": 6.0,
+                    "max": 8.0
+                  }
+                },
+                {
+                  "type": "minecraft:blindness",
+                  "duration": {
+                    "min": 5.0,
+                    "max": 7.0
+                  }
+                },
+                {
+                  "type": "minecraft:saturation",
+                  "duration": {
+                    "min": 7.0,
+                    "max": 10.0
+                  }
+                },
+                {
+                  "type": "minecraft:jump_boost",
+                  "duration": {
+                    "min": 7.0,
+                    "max": 10.0
+                  }
+                },
+                {
+                  "type": "minecraft:poison",
+                  "duration": {
+                    "min": 10.0,
+                    "max": 20.0
+                  }
+                },
+                {
+                  "type": "minecraft:speed",
+                  "duration": {
+                    "min": 7.0,
+                    "max": 10.0
+                  }
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:suspicious_stew"
+        },
+        {
+          "type": "minecraft:item",
           "weight": 6,
           "functions": [
             {
-              "function": "set_count",
+              "function": "minecraft:set_count",
               "count": {
-                "min": 2,
-                "max": 8
+                "min": 2.0,
+                "max": 8.0,
+                "type": "minecraft:uniform"
               }
             }
-          ]
+          ],
+          "name": "minecraft:coal"
         },
         {
-          "type": "item",
-          "name": "minecraft:rotten_flesh",
+          "type": "minecraft:item",
           "weight": 5,
           "functions": [
             {
-              "function": "set_count",
+              "function": "minecraft:set_count",
               "count": {
-                "min": 5,
-                "max": 24
+                "min": 5.0,
+                "max": 24.0,
+                "type": "minecraft:uniform"
               }
             }
-          ]
+          ],
+          "name": "minecraft:rotten_flesh"
         },
         {
-          "type": "item",
-          "name": "minecraft:pumpkin",
+          "type": "minecraft:item",
           "weight": 2,
           "functions": [
             {
-              "function": "set_count",
+              "function": "minecraft:set_count",
               "count": {
-                "min": 1,
-                "max": 3
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
               }
             }
-          ]
+          ],
+          "name": "minecraft:pumpkin"
         },
         {
-          "type": "item",
-          "name": "minecraft:gunpowder",
-          "weight": 3,
+          "type": "minecraft:item",
+          "weight": 2,
           "functions": [
             {
-              "function": "set_count",
+              "function": "minecraft:set_count",
               "count": {
-                "min": 1,
-                "max": 5
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
               }
             }
-          ]
+          ],
+          "name": "minecraft:bamboo"
         },
         {
-          "type": "item",
-          "name": "minecraft:tnt",
-          "weight": 1,
+          "type": "minecraft:item",
+          "weight": 3,
           "functions": [
             {
-              "function": "set_count",
+              "function": "minecraft:set_count",
               "count": {
-                "min": 1,
-                "max": 2
+                "min": 1.0,
+                "max": 5.0,
+                "type": "minecraft:uniform"
               }
             }
-          ]
+          ],
+          "name": "minecraft:gunpowder"
         },
         {
-          "type": "item",
-          "name": "minecraft:leather_helmet",
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:tnt"
+        },
+        {
+          "type": "minecraft:item",
           "weight": 3,
           "functions": [
             {
-                "function": "enchant_randomly"
+              "function": "minecraft:enchant_randomly"
             }
-          ]
+          ],
+          "name": "minecraft:leather_helmet"
         },
         {
-          "type": "item",
-          "name": "minecraft:leather_chestplate",
+          "type": "minecraft:item",
           "weight": 3,
           "functions": [
             {
-                "function": "enchant_randomly"
+              "function": "minecraft:enchant_randomly"
             }
-          ]
+          ],
+          "name": "minecraft:leather_chestplate"
         },
         {
-          "type": "item",
-          "name": "minecraft:leather_leggings",
+          "type": "minecraft:item",
           "weight": 3,
           "functions": [
             {
-                "function": "enchant_randomly"
+              "function": "minecraft:enchant_randomly"
             }
-          ]
+          ],
+          "name": "minecraft:leather_leggings"
         },
         {
-          "type": "item",
-          "name": "minecraft:leather_boots",
+          "type": "minecraft:item",
           "weight": 3,
           "functions": [
             {
-                "function": "enchant_randomly"
+              "function": "minecraft:enchant_randomly"
             }
-          ]
+          ],
+          "name": "minecraft:leather_boots"
         }
       ]
     },
-{
-        "rolls": {
-            "min": 1,
-            "max": 1
-        },
-        "entries": [
-            {
-                "type": "item",
-                "name": "minecraft:player_head",
-                "weight": 250,
-      "functions": [
-                    {
-                        "function": "set_nbt",
-                        "tag": "{display:{Name:\"{\\\"text\\\":\\\"Player Head\\\"}\"},SkullOwner:{Id:\"d46798ef-edd2-4b75-95fc-c1760972a079\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjNiMDk4OTY3MzQwZGFhYzUyOTI5M2MyNGUwNDkxMDUwOWIyMDhlN2I5NDU2M2MzZWYzMWRlYzdiMzc1MCJ9fX0=\"}]}}}"
-                    }
-                ]
-            },
-            {
-                "type": "item",
-                "name": "minecraft:player_head",
-                "weight": 250,
-      "functions": [
-                    {
-                        "function": "set_nbt",
-                        "tag": "{display:{Name:\"{\\\"text\\\":\\\"Player Head\\\"}\"},SkullOwner:{Id:\"9f093fb6-bcd7-4c0a-aff0-79260f8bbc0c\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWI3YWY5ZTQ0MTEyMTdjN2RlOWM2MGFjYmQzYzNmZDY1MTk3ODMzMzJhMWIzYmM1NmZiZmNlOTA3MjFlZjM1In19fQ==\"}]}}}"
-                    }
-                ]
-            },
     {
-                "type": "item",
-                "name": "minecraft:player_head",
-                "weight": 1,
-      "functions": [
-                    {
-                        "function": "set_nbt",
-                        "tag": "{display:{Name:\"{\\\"text\\\":\\\"ERROR\\\"}\"},SkullOwner:{Id:\"d0b15454-36fa-43e4-a247-f882bb9fe288\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOThiN2NhM2M3ZDMxNGE2MWFiZWQ4ZmMxOGQ3OTdmYzMwYjZlZmM4NDQ1NDI1YzRlMjUwOTk3ZTUyZTZjYiJ9fX0=\"}]}}}"
-                    }
-                ]
-            },
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:player_head",
+          "weight": 25,
+          "functions": [
             {
-                "type": "empty",
-                "weight": 1000
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Player Head\\\"}\"},SkullOwner:{Id:\"d46798ef-edd2-4b75-95fc-c1760972a079\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjNiMDk4OTY3MzQwZGFhYzUyOTI5M2MyNGUwNDkxMDUwOWIyMDhlN2I5NDU2M2MzZWYzMWRlYzdiMzc1MCJ9fX0=\"}]}}}"
             }
-        ]
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:player_head",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Player Head\\\"}\"},SkullOwner:{Id:\"9f093fb6-bcd7-4c0a-aff0-79260f8bbc0c\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWI3YWY5ZTQ0MTEyMTdjN2RlOWM2MGFjYmQzYzNmZDY1MTk3ODMzMzJhMWIzYmM1NmZiZmNlOTA3MjFlZjM1In19fQ==\"}]}}}"
+            }
+          ]
+        },
+        {
+          "type": "empty",
+          "weight": 100
+        }
+      ]
     }
   ]
 }
