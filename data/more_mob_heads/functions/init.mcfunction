@@ -4,7 +4,7 @@
 # @s: <SERVER>
 #
 
-
-tellraw @a ["",{"text":"Initializing More Mob Heads...","color":"yellow"}]
-
+tellraw @a ["",{"text":"----------------------------------------"}]
+tellraw @a ["",{"text":"Loading More Mob Heads...","color":"dark_purple"}]
 tellraw @a ["",{"text":"Loading successful!","color":"green"}]
+tellraw @a ["",{"text":"----------------------------------------"}]
