@@ -1,4 +1,4 @@
-# more_mob_heads (v3.0.0)
+# more_mob_heads
 ### by Nuhser
 <br>
 
