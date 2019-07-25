@@ -1,4 +1,4 @@
-# more_mob_heads
+# More Mob Heads
 ### by Nuhser
 <br>
 
