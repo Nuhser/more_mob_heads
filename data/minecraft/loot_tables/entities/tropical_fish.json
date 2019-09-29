@@ -51,7 +51,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Generic Tropical Fish Head\\\"}\"},SkullOwner:{Id:\"08de9879-61fe-43ff-b015-b0e9171efca3\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGI5NTNlNGQzZGZhMWM2MjJmMzBjNDQ4MmQ5YTcyNmVhMTI1OTIxMzRmMWUzYmM3OWUwYzBjNWQ4NGMzNiJ9fX0=\"}]}}}"
+              "tag": "{SkullOwner:{Id:\"08de9879-61fe-43ff-b015-b0e9171efca3\",Name:\"Generic Tropical Fish\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGI5NTNlNGQzZGZhMWM2MjJmMzBjNDQ4MmQ5YTcyNmVhMTI1OTIxMzRmMWUzYmM3OWUwYzBjNWQ4NGMzNiJ9fX0=\"}]}}}"
             }
           ]
         }

@@ -61,7 +61,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Armorer Head\\\"}\"},SkullOwner:{Id:\"fe868730-4537-4f73-8693-981514d97dbc\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTIzNGY1OWQ5ZGNjYTk2ZDdhNjhiMTUzYjZjMzAxYTRlMDQzZTMzYjUxYzM5YTBmOTQyNDA0N2I0M2JhOGIyOCJ9fX0=\"}]}}}"
+              "tag": "{SkullOwner:{Id:\"fe868730-4537-4f73-8693-981514d97dbc\",Name:\"Armorer\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTIzNGY1OWQ5ZGNjYTk2ZDdhNjhiMTUzYjZjMzAxYTRlMDQzZTMzYjUxYzM5YTBmOTQyNDA0N2I0M2JhOGIyOCJ9fX0=\"}]}}}"
             }
           ]
         },
@@ -80,7 +80,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Butcher Head\\\"}\"},SkullOwner:{Id:\"56c54193-b934-49f5-8ad1-d8968d09df6e\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmY0MWFjNjRhZmVhZmY5OTk5NGE4ZWRhYThiM2E0MGE2NjIzZDQxODAxZjE4ZGM5YmU4NmMxZTNlZmFjOWJhNyJ9fX0=\"}]}}}"
+              "tag": "{SkullOwner:{Id:\"56c54193-b934-49f5-8ad1-d8968d09df6e\",Name:\"Butcher\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmY0MWFjNjRhZmVhZmY5OTk5NGE4ZWRhYThiM2E0MGE2NjIzZDQxODAxZjE4ZGM5YmU4NmMxZTNlZmFjOWJhNyJ9fX0=\"}]}}}"
             }
           ]
         },
@@ -99,7 +99,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Cartographer Head\\\"}\"},SkullOwner:{Id:\"059ed883-6c0a-4c94-a2c3-eaa9359cb965\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTQyYjAwYzYwMmE4ZTI2MDRhOWI1OGE3ZWZhZTNhZGQwYzQ0MGI4OThlNTA1Mzk4NTM2M2NiYjJmZmIwMGZlNCJ9fX0=\"}]}}}"
+              "tag": "{SkullOwner:{Id:\"059ed883-6c0a-4c94-a2c3-eaa9359cb965\",Name:\"Cartographer\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTQyYjAwYzYwMmE4ZTI2MDRhOWI1OGE3ZWZhZTNhZGQwYzQ0MGI4OThlNTA1Mzk4NTM2M2NiYjJmZmIwMGZlNCJ9fX0=\"}]}}}"
             }
           ]
         },
@@ -118,7 +118,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Cleric Head\\\"}\"},SkullOwner:{Id:\"904cd86b-71e2-4d48-9518-aec20ef4b18f\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjRmOGI1ZDJkZGQxYjRmNDkzNmI4MWJlMjZhMzZhNGJjZjA1OWE0ZmE5MzBlNzBlYjBjY2U5MGU1ZmIyMGRhZiJ9fX0=\"}]}}}"
+              "tag": "{SkullOwner:{Id:\"904cd86b-71e2-4d48-9518-aec20ef4b18f\",Name:\"Cleric\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjRmOGI1ZDJkZGQxYjRmNDkzNmI4MWJlMjZhMzZhNGJjZjA1OWE0ZmE5MzBlNzBlYjBjY2U5MGU1ZmIyMGRhZiJ9fX0=\"}]}}}"
             }
           ]
         },
@@ -137,7 +137,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Farmer Head\\\"}\"},SkullOwner:{Id:\"aa0c6958-b93a-4c53-8654-affb9d16fd03\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjgwNzI3ZDM5MGMzYjM0ZDgwOWE0ZDU5MDhjNThiNWVkNmE4OTFiOGJkZDBiY2ExNjA2NWNkNTVmMGQ4ZGUwYyJ9fX0=\"}]}}}"
+              "tag": "{SkullOwner:{Id:\"aa0c6958-b93a-4c53-8654-affb9d16fd03\",Name:\"Farmer\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjgwNzI3ZDM5MGMzYjM0ZDgwOWE0ZDU5MDhjNThiNWVkNmE4OTFiOGJkZDBiY2ExNjA2NWNkNTVmMGQ4ZGUwYyJ9fX0=\"}]}}}"
             }
           ]
         },
@@ -156,7 +156,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Fisherman Head\\\"}\"},SkullOwner:{Id:\"61f96c03-c688-4a6d-aae5-e9f7f0fde904\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWY1ZDM4MTlhNjVkYjc5YzQ1ZmQwMDE0MWMwODgyZTQ3YWQyMzRjMGU1Zjg5OTJiZjRhZjE4Y2VkMGUxZWNkYyJ9fX0=\"}]}}}"
+              "tag": "{SkullOwner:{Id:\"61f96c03-c688-4a6d-aae5-e9f7f0fde904\",Name:\"Fisherman\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWY1ZDM4MTlhNjVkYjc5YzQ1ZmQwMDE0MWMwODgyZTQ3YWQyMzRjMGU1Zjg5OTJiZjRhZjE4Y2VkMGUxZWNkYyJ9fX0=\"}]}}}"
             }
           ]
         },
@@ -175,7 +175,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Fletcher Head\\\"}\"},SkullOwner:{Id:\"2720125b-932e-4e9f-9e68-d82703fcbda5\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjJkNjc3NjY4ODQwN2FhYzFiNDUxY2Q2OWEwYThiZmRlYzFmOWE3MDFhYjg2YTM5ZDM3NzdlNDQ4NjM5NTAzZSJ9fX0=\"}]}}}"
+              "tag": "{SkullOwner:{Id:\"2720125b-932e-4e9f-9e68-d82703fcbda5\",Name:\"Fletcher\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjJkNjc3NjY4ODQwN2FhYzFiNDUxY2Q2OWEwYThiZmRlYzFmOWE3MDFhYjg2YTM5ZDM3NzdlNDQ4NjM5NTAzZSJ9fX0=\"}]}}}"
             }
           ]
         },
@@ -194,7 +194,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Leatherworker Head\\\"}\"},SkullOwner:{Id:\"b726e5c1-1990-4a19-bc37-f3d6ef9f44b4\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY4ZmNmYjE5YTQ4MDMxODNlZDU3YjNhYjQ4NTYyZGViZGMwZTgwNDkxZTk3NGJiNjI2OTBkZGU5NDIwZDI4YSJ9fX0=\"}]}}}"
+              "tag": "{SkullOwner:{Id:\"b726e5c1-1990-4a19-bc37-f3d6ef9f44b4\",Name:\"Leatherworker\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY4ZmNmYjE5YTQ4MDMxODNlZDU3YjNhYjQ4NTYyZGViZGMwZTgwNDkxZTk3NGJiNjI2OTBkZGU5NDIwZDI4YSJ9fX0=\"}]}}}"
             }
           ]
         },
@@ -213,7 +213,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Librarian Head\\\"}\"},SkullOwner:{Id:\"4b95aac9-f271-4f92-9d08-58123186cbf7\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODYxZjU3NjJhM2ZhZjUyOTA0NGNmNDU2MDU0YjhlNmQ2YmE4YjI4NzMwOGE4YTA4YjI4NzA3MGY4ZDE2ZWZlNSJ9fX0=\"}]}}}"
+              "tag": "{SkullOwner:{Id:\"4b95aac9-f271-4f92-9d08-58123186cbf7\",Name:\"Librarian\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODYxZjU3NjJhM2ZhZjUyOTA0NGNmNDU2MDU0YjhlNmQ2YmE4YjI4NzMwOGE4YTA4YjI4NzA3MGY4ZDE2ZWZlNSJ9fX0=\"}]}}}"
             }
           ]
         },
@@ -232,7 +232,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Nitwit Head\\\"}\"},SkullOwner:{Id:\"79232c7a-0527-4c17-a99b-a305b7207973\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDU0MWU4ZWJjODgxYzhhMDJmZTRhZjQ0ZjI5MjhlYTkxODhiNTM5ZmQ1NjFiNWIzZmQ3MzE4OTZjMzNiYjUyNCJ9fX0=\"}]}}}"
+              "tag": "{SkullOwner:{Id:\"79232c7a-0527-4c17-a99b-a305b7207973\",Name:\"Nitwit\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDU0MWU4ZWJjODgxYzhhMDJmZTRhZjQ0ZjI5MjhlYTkxODhiNTM5ZmQ1NjFiNWIzZmQ3MzE4OTZjMzNiYjUyNCJ9fX0=\"}]}}}"
             }
           ]
         },
@@ -251,7 +251,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Mason Head\\\"}\"},SkullOwner:{Id:\"b726e5c1-1990-4a19-bc37-f3d6ef9f44b4\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY4ZmNmYjE5YTQ4MDMxODNlZDU3YjNhYjQ4NTYyZGViZGMwZTgwNDkxZTk3NGJiNjI2OTBkZGU5NDIwZDI4YSJ9fX0=\"}]}}}"
+              "tag": "{SkullOwner:{Id:\"b726e5c1-1990-4a19-bc37-f3d6ef9f44b4\",Name:\"Mason\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY4ZmNmYjE5YTQ4MDMxODNlZDU3YjNhYjQ4NTYyZGViZGMwZTgwNDkxZTk3NGJiNjI2OTBkZGU5NDIwZDI4YSJ9fX0=\"}]}}}"
             }
           ]
         },
@@ -270,7 +270,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Shepherd Head\\\"}\"},SkullOwner:{Id:\"bb1f04a1-fae6-4a2d-8382-a569c98ee893\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNmY2IwNTJmNDAxZWQ3NTU5NjZiNTdhNjVhODYwNGI2NDdkYmUzZGQzMmI5YTRiMmI5Y2FlNzAxZWRhYzllNiJ9fX0=\"}]}}}"
+              "tag": "{SkullOwner:{Id:\"bb1f04a1-fae6-4a2d-8382-a569c98ee893\",Name:\"Shepherd\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNmY2IwNTJmNDAxZWQ3NTU5NjZiNTdhNjVhODYwNGI2NDdkYmUzZGQzMmI5YTRiMmI5Y2FlNzAxZWRhYzllNiJ9fX0=\"}]}}}"
             }
           ]
         },
@@ -289,7 +289,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Toolsmith Head\\\"}\"},SkullOwner:{Id:\"b726e5c1-1990-4a19-bc37-f3d6ef9f44b4\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY4ZmNmYjE5YTQ4MDMxODNlZDU3YjNhYjQ4NTYyZGViZGMwZTgwNDkxZTk3NGJiNjI2OTBkZGU5NDIwZDI4YSJ9fX0=\"}]}}}"
+              "tag": "{SkullOwner:{Id:\"b726e5c1-1990-4a19-bc37-f3d6ef9f44b4\",Name:\"Toolsmith\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY4ZmNmYjE5YTQ4MDMxODNlZDU3YjNhYjQ4NTYyZGViZGMwZTgwNDkxZTk3NGJiNjI2OTBkZGU5NDIwZDI4YSJ9fX0=\"}]}}}"
             }
           ]
         },
@@ -308,7 +308,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Weaponsmith Head\\\"}\"},SkullOwner:{Id:\"03c56675-9b28-41ed-b48c-3d936fd10ab5\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzQxMzkyOWMxYzYyNjRiZTkzZGUxNTYyMGU4ZTA0MWMwOWI4MmI4YzAwM2MzZWNiOGJhY2MzNWNlNzY3MGI0MiJ9fX0=\"}]}}}"
+              "tag": "{SkullOwner:{Id:\"03c56675-9b28-41ed-b48c-3d936fd10ab5\",Name:\"Weaponsmith\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzQxMzkyOWMxYzYyNjRiZTkzZGUxNTYyMGU4ZTA0MWMwOWI4MmI4YzAwM2MzZWNiOGJhY2MzNWNlNzY3MGI0MiJ9fX0=\"}]}}}"
             }
           ]
         },
@@ -330,7 +330,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{display:{Name:\"{\\\"text\\\":\\\"Villager Head\\\"}\"},SkullOwner:{Id:\"58404a7e-a14d-4b48-b97c-cdb98a8e1018\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDFiODMwZWI0MDgyYWNlYzgzNmJjODM1ZTQwYTExMjgyYmI1MTE5MzMxNWY5MTE4NDMzN2U4ZDM1NTU1ODMifX19\"}]}}}"
+                  "tag": "{SkullOwner:{Id:\"58404a7e-a14d-4b48-b97c-cdb98a8e1018\",Name:\"Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDFiODMwZWI0MDgyYWNlYzgzNmJjODM1ZTQwYTExMjgyYmI1MTE5MzMxNWY5MTE4NDMzN2U4ZDM1NTU1ODMifX19\"}]}}}"
                 }
               ]
             },
@@ -340,7 +340,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{display:{Name:\"{\\\"text\\\":\\\"Villager Head\\\"}\"},SkullOwner:{Id:\"2f64b693-4350-4866-98de-a2b1049bf20f\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2E0MTA2MWVkODU0MTUxZmRkYTEzZjY4M2RiZTI5OTdhMjczNWNhYTVhMmE1OWE1Njk5MzE0NjAyYTE0ZjkifX19\"}]}}}"
+                  "tag": "{SkullOwner:{Id:\"2f64b693-4350-4866-98de-a2b1049bf20f\",Name:\"Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2E0MTA2MWVkODU0MTUxZmRkYTEzZjY4M2RiZTI5OTdhMjczNWNhYTVhMmE1OWE1Njk5MzE0NjAyYTE0ZjkifX19\"}]}}}"
                 }
               ]
             },
@@ -350,7 +350,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{display:{Name:\"{\\\"text\\\":\\\"Villager Head\\\"}\"},SkullOwner:{Id:\"54f139b5-e32f-48d1-ae02-fb2d9fb2732e\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWJmZTliN2FmNjhkYzEyNjRhNmZjOTY5ZjNkN2IwOGU1MGU2MWU2ZWU5MWNlYTgzZGFhYmQxODgyMGYwZWYifX19\"}]}}}"
+                  "tag": "{SkullOwner:{Id:\"54f139b5-e32f-48d1-ae02-fb2d9fb2732e\",Name:\"Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWJmZTliN2FmNjhkYzEyNjRhNmZjOTY5ZjNkN2IwOGU1MGU2MWU2ZWU5MWNlYTgzZGFhYmQxODgyMGYwZWYifX19\"}]}}}"
                 }
               ]
             },
@@ -360,7 +360,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{display:{Name:\"{\\\"text\\\":\\\"Villager Head\\\"}\"},SkullOwner:{Id:\"6f45ccba-f11e-4d0e-a852-48999cf481a4\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmU4YzVmMzU1ZDFjM2UxMWUyMjlkNjViZDMzZGY4ZTBjZTVhYjY0NDRhODFhODU0NTJjNjFjMWNmYjJkZDllIn19fQ==\"}]}}}"
+                  "tag": "{SkullOwner:{Id:\"6f45ccba-f11e-4d0e-a852-48999cf481a4\",Name:\"Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmU4YzVmMzU1ZDFjM2UxMWUyMjlkNjViZDMzZGY4ZTBjZTVhYjY0NDRhODFhODU0NTJjNjFjMWNmYjJkZDllIn19fQ==\"}]}}}"
                 }
               ]
             }
