@@ -24,7 +24,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{display:{Name:\"{\\\"text\\\":\\\"Cod Head\\\"}\"},SkullOwner:{Id:\"d6d4c744-06b4-4a8a-bc7a-bdb0770bb1cf\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzg5MmQ3ZGQ2YWFkZjM1Zjg2ZGEyN2ZiNjNkYTRlZGRhMjExZGY5NmQyODI5ZjY5MTQ2MmE0ZmIxY2FiMCJ9fX0=\"}]}}}"
+                  "tag": "{SkullOwner:{Id:\"d6d4c744-06b4-4a8a-bc7a-bdb0770bb1cf\",Name:\"Cod\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzg5MmQ3ZGQ2YWFkZjM1Zjg2ZGEyN2ZiNjNkYTRlZGRhMjExZGY5NmQyODI5ZjY5MTQ2MmE0ZmIxY2FiMCJ9fX0=\"}]}}}"
                 }
               ]
             },
@@ -34,7 +34,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{display:{Name:\"{\\\"text\\\":\\\"Salmon Head\\\"}\"},SkullOwner:{Id:\"0354c430-3979-4b6e-8e65-a99eb3ea8818\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGFlYjIxYTI1ZTQ2ODA2Y2U4NTM3ZmJkNjY2ODI4MWNmMTc2Y2VhZmU5NWFmOTBlOTRhNWZkODQ5MjQ4NzgifX19\"}]}}}"
+                  "tag": "{SkullOwner:{Id:\"0354c430-3979-4b6e-8e65-a99eb3ea8818\",Name:\"Salmon\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGFlYjIxYTI1ZTQ2ODA2Y2U4NTM3ZmJkNjY2ODI4MWNmMTc2Y2VhZmU5NWFmOTBlOTRhNWZkODQ5MjQ4NzgifX19\"}]}}}"
                 }
               ]
             },
@@ -44,7 +44,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{display:{Name:\"{\\\"text\\\":\\\"Generic Tropical Fish Head\\\"}\"},SkullOwner:{Id:\"08de9879-61fe-43ff-b015-b0e9171efca3\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGI5NTNlNGQzZGZhMWM2MjJmMzBjNDQ4MmQ5YTcyNmVhMTI1OTIxMzRmMWUzYmM3OWUwYzBjNWQ4NGMzNiJ9fX0=\"}]}}}"
+                  "tag": "{SkullOwner:{Id:\"08de9879-61fe-43ff-b015-b0e9171efca3\",Name:\"Generic Tropical Fish\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGI5NTNlNGQzZGZhMWM2MjJmMzBjNDQ4MmQ5YTcyNmVhMTI1OTIxMzRmMWUzYmM3OWUwYzBjNWQ4NGMzNiJ9fX0=\"}]}}}"
                 }
               ]
             },
@@ -54,7 +54,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{display:{Name:\"{\\\"text\\\":\\\"Pufferfish Head\\\"}\"},SkullOwner:{Id:\"258e3114-368c-48a1-85fd-be580912f0df\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTcxNTI4NzZiYzNhOTZkZDJhMjI5OTI0NWVkYjNiZWVmNjQ3YzhhNTZhYzg4NTNhNjg3YzNlN2I1ZDhiYiJ9fX0=\"}]}}}"
+                  "tag": "{SkullOwner:{Id:\"258e3114-368c-48a1-85fd-be580912f0df\",Name:\"Pufferfish\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTcxNTI4NzZiYzNhOTZkZDJhMjI5OTI0NWVkYjNiZWVmNjQ3YzhhNTZhYzg4NTNhNjg3YzNlN2I1ZDhiYiJ9fX0=\"}]}}}"
                 }
               ]
             },
@@ -64,7 +64,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{display:{Name:\"{\\\"text\\\":\\\"Squid Head\\\"}\"},SkullOwner:{Id:\"f95d9504-ea2b-4b89-b2d0-d400654a7010\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMDE0MzNiZTI0MjM2NmFmMTI2ZGE0MzRiODczNWRmMWViNWIzY2IyY2VkZTM5MTQ1OTc0ZTljNDgzNjA3YmFjIn19fQ==\"}]}}}"
+                  "tag": "{SkullOwner:{Id:\"f95d9504-ea2b-4b89-b2d0-d400654a7010\",Name:\"Squid\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMDE0MzNiZTI0MjM2NmFmMTI2ZGE0MzRiODczNWRmMWViNWIzY2IyY2VkZTM5MTQ1OTc0ZTljNDgzNjA3YmFjIn19fQ==\"}]}}}"
                 }
               ]
             },
@@ -74,7 +74,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{display:{Name:\"{\\\"text\\\":\\\"Dolphin Head\\\"}\"},SkullOwner:{Id:\"8b7ccd6d-36de-47e0-8d5a-6f6799c6feb8\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGU5Njg4Yjk1MGQ4ODBiNTViN2FhMmNmY2Q3NmU1YTBmYTk0YWFjNmQxNmY3OGU4MzNmNzQ0M2VhMjlmZWQzIn19fQ==\"}]}}}"
+                  "tag": "{SkullOwner:{Id:\"8b7ccd6d-36de-47e0-8d5a-6f6799c6feb8\",Name:\"Dolphin\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGU5Njg4Yjk1MGQ4ODBiNTViN2FhMmNmY2Q3NmU1YTBmYTk0YWFjNmQxNmY3OGU4MzNmNzQ0M2VhMjlmZWQzIn19fQ==\"}]}}}"
                 }
               ]
             }
