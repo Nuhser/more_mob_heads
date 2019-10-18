@@ -12,3 +12,10 @@ There are 162 different heads. So it may take you a while to find them all.
 But wait, there's more! From now on **every player** drops his or her own head if he or she dies. Isn't that awesome?!
 
 As an admin, it is also possible to get an overview of all the heads in the game by using the function `more_mob_heads:all_heads`. This will give you a structure block, which when used will place several chests in the displayed area where you can find all heads sorted by category.
+
+Pictures of all the heads:
+![Hostile Mobs 1](https://raw.githubusercontent.com/Nuhser/more_mob_heads/master/screenshots/hostile_mobs1.png)
+![Hostile Mobs 2](https://raw.githubusercontent.com/Nuhser/more_mob_heads/master/screenshots/hostile_mobs2.png)
+![Neutral & Passive Mobs 1](https://raw.githubusercontent.com/Nuhser/more_mob_heads/master/screenshots/neutral_and_passive_mobs1.png)
+![Neutral & Passive Mobs 2](https://raw.githubusercontent.com/Nuhser/more_mob_heads/master/screenshots/neutral_and_passive_mobs2.png)
+![Villagers & Village Mobs](https://raw.githubusercontent.com/Nuhser/more_mob_heads/master/screenshots/villager_and_village_mobs.png)
