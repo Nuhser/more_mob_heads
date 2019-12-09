@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "more_mob_heads:init"
+    "more_mob_heads:_init"
   ]
 }
