@@ -2,7 +2,7 @@
 ### by Nuhser
 <br>
 
-**Requires [nuhser_core](https://github.com/Nuhser/nuhser_core/releases "Nuhser_Core 4.0.0")  or newer to be installed first!**
+**Requires [nuhser_core 4.0.0](https://github.com/Nuhser/nuhser_core/releases "Nuhser_Core")  or newer to be installed first!**
 
 More Mob Heads extends the loot tables of all mobs in the game, making it possible for them to drop their own heads when killed by a player. The probability depends on how rare the mobs are and whether it's possible to build a farm for them. Many mobs (such as cats, sheep, rabbits,...) also drop different kinds of heads depending on their appearance. Others have multiple heads that drop randomly and some even have special variants of heads that only drop under certain conditions. Last but not least, there are some heads that can only be found in loot chests (e.g. in desert temples).
 There are 162 different heads. So it may take you a while to find them all.
