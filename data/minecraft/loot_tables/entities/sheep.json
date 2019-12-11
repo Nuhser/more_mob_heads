@@ -57,12 +57,38 @@
                   }
                 },
                 {
-                  "condition": "killed_by_player"
+                  "condition": "alternative",
+                  "terms": [
+                    {
+                      "condition": "killed_by_player"
+                    },
+                    {
+                      "condition": "entity_properties",
+                      "entity": "killer",
+                      "predicate": {
+                        "type": "minecraft:creeper",
+                        "nbt": "{powered: 1b}"
+                      }
+                    }
+                  ]
                 },
                 {
-                  "condition": "random_chance_with_looting",
-                  "chance": 0.10,
-                  "looting_multiplier": 0.05
+                  "condition": "alternative",
+                  "terms": [
+                    {
+                      "condition": "random_chance_with_looting",
+                      "chance": 0.1,
+                      "looting_multiplier": 0.05
+                    },
+                    {
+                      "condition": "entity_properties",
+                      "entity": "killer",
+                      "predicate": {
+                        "type": "minecraft:creeper",
+                        "nbt": "{powered: 1b}"
+                      }
+                    }
+                  ]
                 }
               ],
               "type": "item",
@@ -78,12 +104,38 @@
             {
               "conditions": [
                 {
-                  "condition": "killed_by_player"
+                  "condition": "alternative",
+                  "terms": [
+                    {
+                      "condition": "killed_by_player"
+                    },
+                    {
+                      "condition": "entity_properties",
+                      "entity": "killer",
+                      "predicate": {
+                        "type": "minecraft:creeper",
+                        "nbt": "{powered: 1b}"
+                      }
+                    }
+                  ]
                 },
                 {
-                  "condition": "random_chance_with_looting",
-                  "chance": 0.0175,
-                  "looting_multiplier": 0.0025
+                  "condition": "alternative",
+                  "terms": [
+                    {
+                      "condition": "random_chance_with_looting",
+                      "chance": 0.0175,
+                      "looting_multiplier": 0.0025
+                    },
+                    {
+                      "condition": "entity_properties",
+                      "entity": "killer",
+                      "predicate": {
+                        "type": "minecraft:creeper",
+                        "nbt": "{powered: 1b}"
+                      }
+                    }
+                  ]
                 }
               ],
               "type": "alternatives",

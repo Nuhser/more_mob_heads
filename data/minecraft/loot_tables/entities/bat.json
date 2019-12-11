@@ -4,12 +4,38 @@
     {
       "conditions": [
         {
-          "condition": "killed_by_player"
+          "condition": "alternative",
+          "terms": [
+            {
+              "condition": "killed_by_player"
+            },
+            {
+              "condition": "entity_properties",
+              "entity": "killer",
+              "predicate": {
+                "type": "minecraft:creeper",
+                "nbt": "{powered: 1b}"
+              }
+            }
+          ]
         },
         {
-          "condition": "random_chance_with_looting",
-          "chance": 0.02,
-          "looting_multiplier": 0.02
+          "condition": "alternative",
+          "terms": [
+            {
+              "condition": "random_chance_with_looting",
+              "chance": 0.02,
+              "looting_multiplier": 0.02
+            },
+            {
+              "condition": "entity_properties",
+              "entity": "killer",
+              "predicate": {
+                "type": "minecraft:creeper",
+                "nbt": "{powered: 1b}"
+              }
+            }
+          ]
         }
       ],
       "rolls": 1,
