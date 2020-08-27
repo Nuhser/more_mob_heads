@@ -2,7 +2,7 @@
 ### by Nuhser
 <br>
 
-**Requires [nuhser_core 4.0.0](https://github.com/Nuhser/nuhser_core/releases "Nuhser_Core")  or newer to be installed first!**
+**Requires [nuhser_core 5.0.0](https://github.com/Nuhser/nuhser_core/releases "Nuhser_Core")  or newer to be installed first!**
 
 More Mob Heads extends the loot tables of all mobs in the game, making it possible for them to drop their own heads when killed by a player. The probability depends on how rare the mobs are and whether it's possible to build a farm for them. In addition, mobs will drop their heads with 100% probability if killed by a charged creeper.
 
