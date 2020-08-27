@@ -1,0 +1,57 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "conditions": [
+        {
+          "condition": "alternative",
+          "terms": [
+            {
+              "condition": "killed_by_player"
+            },
+            {
+              "condition": "entity_properties",
+              "entity": "killer",
+              "predicate": {
+                "type": "minecraft:creeper",
+                "nbt": "{powered: 1b}"
+              }
+            }
+          ]
+        },
+        {
+          "condition": "alternative",
+          "terms": [
+            {
+              "condition": "random_chance_with_looting",
+              "chance": 0.01,
+              "looting_multiplier": 0.005
+            },
+            {
+              "condition": "entity_properties",
+              "entity": "killer",
+              "predicate": {
+                "type": "minecraft:creeper",
+                "nbt": "{powered: 1b}"
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{SkullOwner:{Id:[I;2067766037,844844398,-1585183659,-499932724],Name:\"Piglin\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2NlZDlkODAxYWE2ZjgzZjhlNDlmOTBkOWE4Yjg1YjdmOGZkYTU4M2Q4NWY3MmNmZmI2OTg2NzI1Nzg5ZjYzNiJ9fX0=\"}]}}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
